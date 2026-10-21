@@ -7,22 +7,22 @@ class FssMqtt < Formula
   on_macos do
     on_arm do
       url "https://github.com/mbilling/fss-mqtt/releases/download/v0.8.0/fss-mqtt-0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "81bc5a5fe6ed81b20632091d24f477e7cbfff3f90d52184160703a93181c7b8d"
+      sha256 "b8350bcd66f82afce1eaa7bb42501ec77f1c011a8c9a2420db9069c29a076a26"
     end
     on_intel do
       url "https://github.com/mbilling/fss-mqtt/releases/download/v0.8.0/fss-mqtt-0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "86846aba5e9aac9634f6dd306b6fdafbc992d320371558e4bfd0baaf8399d898"
+      sha256 "e9d2b8a4626d77dab0c4a8943e470b721f2eb6bd4a724a152615e89a536a39cc"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mbilling/fss-mqtt/releases/download/v0.8.0/fss-mqtt-0.8.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6f453cc20bd75c3973c2fdfd91d664738077a55b0fc9a44f1322a448b88e0c67"
+      sha256 "e4146e36e1bc7b1383671a27a5a4b72a318bdf28adecc6029d6514ee516a46fe"
     end
     on_intel do
       url "https://github.com/mbilling/fss-mqtt/releases/download/v0.8.0/fss-mqtt-0.8.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d20377e43fe92390c1e4c5f62043cdff16e949f0819bae6a463413d2590a363c"
+      sha256 "95cb9a1e8ae69dfd54a83d66a4ce46b8e6c0cfa6120570e028797d453f43078c"
     end
   end
 
