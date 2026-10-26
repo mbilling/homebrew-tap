@@ -1,28 +1,28 @@
 class FssMqtt < Formula
   desc "Fast, keyboard-driven MQTT v5 explorer for the terminal"
   homepage "https://github.com/mbilling/fss-mqtt"
-  version "0.14.0"
+  version "0.15.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/mbilling/fss-mqtt/releases/download/v0.14.0/fss-mqtt-0.14.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c283f6568889c9be53e9062bd4d0cce6881536cfe68528b33658700f67365fbc"
+      url "https://github.com/mbilling/fss-mqtt/releases/download/v0.15.0/fss-mqtt-0.15.0-aarch64-apple-darwin.tar.gz"
+      sha256 "00db2030d21c6d025bfcc1187afd5b42e3b3824f47cc4d632ea2a5d671aa6c6d"
     end
     on_intel do
-      url "https://github.com/mbilling/fss-mqtt/releases/download/v0.14.0/fss-mqtt-0.14.0-x86_64-apple-darwin.tar.gz"
-      sha256 "58aafde595757ce9d618d8832ff53773d570af7982de7c399a6bddd9535427ab"
+      url "https://github.com/mbilling/fss-mqtt/releases/download/v0.15.0/fss-mqtt-0.15.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ab46c76490b189672df5faa1e824c3561526ee1eb4d93b7b40136283e1810226"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mbilling/fss-mqtt/releases/download/v0.14.0/fss-mqtt-0.14.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ed5acb87535248aef2161d3b127286184751bdbbd6ce610d4c28967598c9858a"
+      url "https://github.com/mbilling/fss-mqtt/releases/download/v0.15.0/fss-mqtt-0.15.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1ebd72d333e3a4c3cc1ef6a85716b1019d45fe2d1fa46b17eef146e835669655"
     end
     on_intel do
-      url "https://github.com/mbilling/fss-mqtt/releases/download/v0.14.0/fss-mqtt-0.14.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ae60bd6eb1832c2f21795cd66e6193cee15c947936c9f19372eba505a8902b11"
+      url "https://github.com/mbilling/fss-mqtt/releases/download/v0.15.0/fss-mqtt-0.15.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "24f2544c3d696cd6dde3d75acaeedac4623fb4e11fa1e4e8faf9d5f37e55fe5b"
     end
   end
 
